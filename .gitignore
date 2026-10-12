@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets and results
+data/raw/
+data/staging/
+data/processed/
+data/marts/
+data/quality/
+data/_runs/
+data/sample/
+
+# Application logs
+logs/
+*.log

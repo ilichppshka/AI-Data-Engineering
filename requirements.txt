@@ -1,0 +1,12 @@
+# CORE-окружение курса. Достаточно для VS Code + Jupyter extension, Colab-like
+# запуска и tools/run_all.py; никаких серверов поднимать не нужно.
+
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0          # Parquet
+duckdb>=0.10           # аналитический SQL-движок «в процессе»
+scikit-learn>=1.3      # ЛР 6: модель как потребитель данных
+# Kernel для VS Code/Colab; ниже — runner преподавателя.
+ipykernel>=6.25
+nbformat>=5.9
+nbclient>=0.9
